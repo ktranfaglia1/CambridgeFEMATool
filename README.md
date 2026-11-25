@@ -26,7 +26,8 @@ Navigation runs through a sidebar with four areas.
 ### Insurance Projections
 - Enter an address and home value.
 - The address is checked with geocoding (geopy/Nominatim, on a background thread).
-- The tool projects annual insurance costs up to 100 years out, combining a base rate, inflation, and hurricane frequency and intensity rising toward NOAA-based projections. It charts cost alongside expected Category 3 and 4 storms, and exports the table and graph.
+- The tool projects annual insurance costs up to 100 years out, combining a base rate, inflation, and hurricane frequency and intensity rising toward NOAA-based projections.
+- It charts the projected cost by year. The table adds the expected number of Category 3-or-lower and Category 4+ hurricanes each year, cumulative hurricanes, and the cumulative price increase. Both the table and the graph export.
 
 ## Tech stack
 
